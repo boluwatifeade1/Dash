@@ -1,0 +1,71 @@
+.SignInWrapper {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  
+}
+
+.SignIn {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: 40px;
+  font-size: 14px;
+}
+
+.SignIn__header {
+  font-size: 35px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.SignIn__header--secondary {
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+.SignIn label:not(:last-child) {
+  font-size: 14px;
+  display: block;
+  font-weight: 400;
+  margin-bottom: 6px;
+}
+
+.SignIn input:last-child {
+  width: 100%;
+  padding: 12px 6px;
+  margin-bottom: 17px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.SignIn input:focus{
+  outline: none;
+}
+
+.btn {
+  margin-top: 20px;
+  width: 100%;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 4px;
+  text-align: center;
+  padding: 12px 0px;
+  background-color:  #435e97e0;
+  margin-bottom: 10px;
+  transition: all .3s;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color:  #3d5a97;
+}
+
+.checkbox {
+  margin-right: 20px;
+}

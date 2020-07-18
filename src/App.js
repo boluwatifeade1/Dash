@@ -5,7 +5,10 @@ import SiginIn from './components/Auth/SignIn'
 
 const App = () => {
   return (
-    <SiginIn/>
+    <>
+      <div className="nav"></div>
+      <SiginIn/>
+    </>  
   )
 }
 
